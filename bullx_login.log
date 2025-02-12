@@ -2124,3 +2124,527 @@ Stacktrace:
 15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
 
 2025-02-12 17:06:10,310 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:18:07,580 - INFO - ChromeDriver initialized.
+2025-02-12 17:18:09,293 - INFO - Opened Telegram Web.
+2025-02-12 17:18:09,633 - INFO - Clicked on BullX chat.
+2025-02-12 17:18:09,877 - INFO - Sent /start command to BullX.
+2025-02-12 17:18:09,877 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:18:14,890 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="message-271"]/div[3]/div[2]/div[1]/button/div"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010312abac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010312320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102c89afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102cd08f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102d11b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102cc4ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001030f3664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001030f6978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001030d8d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001030f7220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001030c9cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001031138d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000103113a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000103122e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:18:14,891 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:22:22,372 - INFO - ChromeDriver initialized.
+2025-02-12 17:22:22,888 - INFO - Opened Telegram Web.
+2025-02-12 17:22:24,065 - INFO - Clicked on BullX chat.
+2025-02-12 17:22:24,468 - INFO - Sent /start command to BullX.
+2025-02-12 17:22:24,469 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:22:34,597 - INFO - Clicked Login button.
+2025-02-12 17:22:34,656 - INFO - Pop-up appeared.
+2025-02-12 17:22:34,758 - INFO - Clicked Open Link button.
+2025-02-12 17:22:34,775 - ERROR - An error occurred during login: Message: invalid selector: Unable to locate an element with the xpath expression //*[@id="root"]/div/div[2]/main/div/div[2]/div[1]/div[3]/div[2]/input[1]"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="root"]/div/div[2]/main/div/div[2]/div[1]/div[3]/div[2]/input[1]"]' is not a valid XPath expression.
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x00000001011dabac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001011d320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000100d39afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000100d3f808 cxxbridge1$string$len + 117168
+4   chromedriver                        0x0000000100d418e0 cxxbridge1$string$len + 125576
+5   chromedriver                        0x0000000100d41988 cxxbridge1$string$len + 125744
+6   chromedriver                        0x0000000100d804f0 cxxbridge1$string$len + 382616
+7   chromedriver                        0x0000000100dc1b94 cxxbridge1$string$len + 650556
+8   chromedriver                        0x0000000100d74ba0 cxxbridge1$string$len + 335176
+9   chromedriver                        0x00000001011a3664 cxxbridge1$str$ptr + 2498188
+10  chromedriver                        0x00000001011a6978 cxxbridge1$str$ptr + 2511264
+11  chromedriver                        0x0000000101188d04 cxxbridge1$str$ptr + 2389292
+12  chromedriver                        0x00000001011a7220 cxxbridge1$str$ptr + 2513480
+13  chromedriver                        0x0000000101179cec cxxbridge1$str$ptr + 2327828
+14  chromedriver                        0x00000001011c38d4 cxxbridge1$str$ptr + 2629884
+15  chromedriver                        0x00000001011c3a5c cxxbridge1$str$ptr + 2630276
+16  chromedriver                        0x00000001011d2e80 cxxbridge1$str$ptr + 2692776
+17  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:22:55,166 - ERROR - An error occurred: Message: 
+
+2025-02-12 17:22:55,166 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:27:38,164 - INFO - ChromeDriver initialized.
+2025-02-12 17:27:39,426 - INFO - Opened Telegram Web.
+2025-02-12 17:27:39,522 - INFO - Clicked on BullX chat.
+2025-02-12 17:27:40,049 - INFO - Sent /start command to BullX.
+2025-02-12 17:27:40,049 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:27:50,161 - INFO - Clicked Login button.
+2025-02-12 17:27:50,179 - INFO - Pop-up appeared.
+2025-02-12 17:27:50,408 - INFO - Clicked Open Link button.
+2025-02-12 17:27:50,421 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div/div[2]/main/div/div[2]/div[1]/div[3]/div[2]/input[1]"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001024febac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001024f720c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x000000010205dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001020a48f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x00000001020e5b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102098ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001024c7664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001024ca978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001024acd04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001024cb220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x000000010249dcec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001024e78d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x00000001024e7a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x00000001024f6e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:27:50,421 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:39:13,580 - INFO - ChromeDriver initialized.
+2025-02-12 17:39:14,156 - INFO - Opened Telegram Web.
+2025-02-12 17:39:15,390 - INFO - Clicked on BullX chat.
+2025-02-12 17:39:15,842 - INFO - Sent /start command to BullX.
+2025-02-12 17:39:15,852 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:39:25,962 - INFO - Clicked Login button.
+2025-02-12 17:39:26,016 - INFO - Pop-up appeared.
+2025-02-12 17:39:26,145 - INFO - Clicked Open Link button.
+2025-02-12 17:39:46,189 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101166bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010115f20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000100cc5afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000100d0c8f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000100d4db94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000100d00ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x000000010112f664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000101132978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000101114d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000101133220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000101105cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x000000010114f8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x000000010114fa5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x000000010115ee80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:39:46,190 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:46:16,883 - INFO - ChromeDriver initialized.
+2025-02-12 17:46:18,223 - INFO - Opened Telegram Web.
+2025-02-12 17:46:18,360 - INFO - Clicked on BullX chat.
+2025-02-12 17:46:19,657 - INFO - Sent /start command to BullX.
+2025-02-12 17:46:19,659 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:46:29,802 - INFO - Clicked Login button.
+2025-02-12 17:46:29,829 - INFO - Pop-up appeared.
+2025-02-12 17:46:29,965 - INFO - Clicked Open Link button.
+2025-02-12 17:46:50,498 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100dd6bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000100dcf20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000100935afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x000000010097c8f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x00000001009bdb94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000100970ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000100d9f664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000100da2978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000100d84d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000100da3220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000100d75cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000100dbf8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000100dbfa5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000100dcee80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:46:50,499 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:48:19,719 - INFO - ChromeDriver initialized.
+2025-02-12 17:48:21,140 - INFO - Opened Telegram Web.
+2025-02-12 17:48:21,410 - INFO - Clicked on BullX chat.
+2025-02-12 17:48:21,747 - INFO - Sent /start command to BullX.
+2025-02-12 17:48:21,747 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:48:31,880 - INFO - Clicked Login button.
+2025-02-12 17:48:31,910 - INFO - Pop-up appeared.
+2025-02-12 17:48:32,046 - INFO - Clicked Open Link button.
+2025-02-12 17:48:52,293 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001028fabac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001028f320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102459afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001024a08f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x00000001024e1b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102494ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001028c3664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001028c6978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001028a8d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001028c7220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000102899cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001028e38d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x00000001028e3a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x00000001028f2e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:48:52,293 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:49:28,890 - INFO - Browser closed.
+2025-02-12 17:53:50,799 - INFO - ChromeDriver initialized.
+2025-02-12 17:53:51,900 - INFO - Opened Telegram Web.
+2025-02-12 17:53:51,924 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="LeftColumn-main"]/div[2]/div/div/div/div/div[2]/div[1]/a"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f92bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000102f8b20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102af1afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102b388f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102b79b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102b2cba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000102f5b664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000102f5e978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000102f40d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000102f5f220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000102f31cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000102f7b8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000102f7ba5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000102f8ae80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:53:51,925 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:54:54,539 - INFO - Browser closed.
+2025-02-12 17:55:03,282 - INFO - ChromeDriver initialized.
+2025-02-12 17:55:04,011 - INFO - Opened Telegram Web.
+2025-02-12 17:55:05,054 - INFO - Clicked on BullX chat.
+2025-02-12 17:55:05,326 - INFO - Sent /start command to BullX.
+2025-02-12 17:55:05,326 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:55:15,408 - INFO - Clicked Login button.
+2025-02-12 17:55:15,463 - INFO - Pop-up appeared.
+2025-02-12 17:55:15,766 - INFO - Clicked Open Link button.
+2025-02-12 17:55:35,902 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010323ebac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010323720c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102d9dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102de48f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102e25b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102dd8ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000103207664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x000000010320a978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001031ecd04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x000000010320b220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001031ddcec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001032278d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000103227a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000103236e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:55:35,902 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:56:21,920 - INFO - Browser closed.
+2025-02-12 17:57:37,673 - INFO - ChromeDriver initialized.
+2025-02-12 17:57:39,057 - INFO - Opened Telegram Web.
+2025-02-12 17:57:39,256 - INFO - Clicked on BullX chat.
+2025-02-12 17:57:39,957 - INFO - Sent /start command to BullX.
+2025-02-12 17:57:39,958 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:57:50,087 - INFO - Clicked Login button.
+2025-02-12 17:57:50,161 - INFO - Pop-up appeared.
+2025-02-12 17:57:50,272 - INFO - Clicked Open Link button.
+2025-02-12 17:58:10,284 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010051ebac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010051720c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x000000010007dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001000c48f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000100105b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x00000001000b8ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001004e7664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001004ea978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001004ccd04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001004eb220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001004bdcec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001005078d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000100507a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000100516e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:58:10,284 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 17:58:46,351 - INFO - ChromeDriver initialized.
+2025-02-12 17:58:47,504 - INFO - Opened Telegram Web.
+2025-02-12 17:58:47,605 - INFO - Clicked on BullX chat.
+2025-02-12 17:58:48,215 - INFO - Sent /start command to BullX.
+2025-02-12 17:58:48,215 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 17:58:58,231 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="message-305"]/div[3]/div[2]/div[1]/button"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104506bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001044ff20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000104065afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001040ac8f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x00000001040edb94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x00000001040a0ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001044cf664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001044d2978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001044b4d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001044d3220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001044a5cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001044ef8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x00000001044efa5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x00000001044fee80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 17:58:58,232 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:03:52,764 - INFO - ChromeDriver initialized.
+2025-02-12 18:03:53,513 - INFO - Opened Telegram Web.
+2025-02-12 18:03:55,121 - INFO - Clicked on BullX chat.
+2025-02-12 18:03:55,298 - INFO - Sent /start command to BullX.
+2025-02-12 18:03:55,298 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:04:05,314 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="message-305"]/div[3]/div[2]/div[1]/button"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001031b6bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001031af20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102d15afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102d5c8f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102d9db94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102d50ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x000000010317f664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000103182978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000103164d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000103183220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000103155cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x000000010319f8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x000000010319fa5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x00000001031aee80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:04:05,315 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:04:23,619 - INFO - ChromeDriver initialized.
+2025-02-12 18:04:24,691 - INFO - Opened Telegram Web.
+2025-02-12 18:04:24,893 - INFO - Clicked on BullX chat.
+2025-02-12 18:04:25,463 - INFO - Sent /start command to BullX.
+2025-02-12 18:04:25,464 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:04:35,481 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="message-305"]/div[3]/div[2]/div[1]/button"}
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000103026bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010301f20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102b85afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102bcc8f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102c0db94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102bc0ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000102fef664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000102ff2978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000102fd4d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000102ff3220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000102fc5cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x000000010300f8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x000000010300fa5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x000000010301ee80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:04:35,482 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:06:03,157 - INFO - ChromeDriver initialized.
+2025-02-12 18:06:06,305 - INFO - Opened Telegram Web.
+2025-02-12 18:06:06,593 - INFO - Clicked on BullX chat.
+2025-02-12 18:06:06,936 - INFO - Sent /start command to BullX.
+2025-02-12 18:06:06,936 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:06:17,062 - INFO - Clicked Login button.
+2025-02-12 18:06:17,580 - INFO - Pop-up appeared.
+2025-02-12 18:06:17,647 - INFO - Clicked Open Link button.
+2025-02-12 18:06:30,546 - ERROR - An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.54)
+Stacktrace:
+0   chromedriver                        0x0000000104efabac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000104ef320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000104a59afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000104a334d4 chromedriver + 128212
+4   chromedriver                        0x0000000104ac8b24 cxxbridge1$string$len + 548044
+5   chromedriver                        0x0000000104ae1694 cxxbridge1$string$len + 649276
+6   chromedriver                        0x0000000104a94ba0 cxxbridge1$string$len + 335176
+7   chromedriver                        0x0000000104ec3664 cxxbridge1$str$ptr + 2498188
+8   chromedriver                        0x0000000104ec6978 cxxbridge1$str$ptr + 2511264
+9   chromedriver                        0x0000000104ea8d04 cxxbridge1$str$ptr + 2389292
+10  chromedriver                        0x0000000104ec7220 cxxbridge1$str$ptr + 2513480
+11  chromedriver                        0x0000000104e99cec cxxbridge1$str$ptr + 2327828
+12  chromedriver                        0x0000000104ee38d4 cxxbridge1$str$ptr + 2629884
+13  chromedriver                        0x0000000104ee3a5c cxxbridge1$str$ptr + 2630276
+14  chromedriver                        0x0000000104ef2e80 cxxbridge1$str$ptr + 2692776
+15  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:06:30,546 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:07:29,662 - INFO - ChromeDriver initialized.
+2025-02-12 18:07:31,498 - INFO - Opened Telegram Web.
+2025-02-12 18:07:31,615 - INFO - Clicked on BullX chat.
+2025-02-12 18:07:32,673 - INFO - Sent /start command to BullX.
+2025-02-12 18:07:32,673 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:07:42,835 - INFO - Clicked Login button.
+2025-02-12 18:07:42,847 - INFO - Pop-up appeared.
+2025-02-12 18:07:42,959 - INFO - Clicked Open Link button.
+2025-02-12 18:08:03,148 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ba2bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000102b9b20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102701afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001027488f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102789b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x000000010273cba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000102b6b664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000102b6e978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000102b50d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000102b6f220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000102b41cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000102b8b8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000102b8ba5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000102b9ae80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:08:03,149 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:12:52,915 - INFO - ChromeDriver initialized.
+2025-02-12 18:12:54,086 - INFO - Opened Telegram Web.
+2025-02-12 18:12:54,364 - INFO - Clicked on BullX chat.
+2025-02-12 18:12:54,661 - INFO - Sent /start command to BullX.
+2025-02-12 18:12:54,661 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:13:04,796 - INFO - Clicked Login button.
+2025-02-12 18:13:04,804 - INFO - Pop-up appeared.
+2025-02-12 18:13:05,023 - INFO - Clicked Open Link button.
+2025-02-12 18:13:25,389 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000103312bac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010330b20c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102e71afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102eb88f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102ef9b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102eacba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001032db664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001032de978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001032c0d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001032df220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001032b1cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001032fb8d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x00000001032fba5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x000000010330ae80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:13:25,389 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:17:52,206 - INFO - Browser closed.
+2025-02-12 18:22:03,800 - INFO - ChromeDriver initialized.
+2025-02-12 18:22:05,675 - INFO - Opened Telegram Web.
+2025-02-12 18:22:05,953 - INFO - Clicked on BullX chat.
+2025-02-12 18:22:06,207 - INFO - Sent /start command to BullX.
+2025-02-12 18:22:06,207 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:22:16,377 - INFO - Clicked Login button.
+2025-02-12 18:22:16,389 - INFO - Pop-up appeared.
+2025-02-12 18:22:16,518 - INFO - Clicked Open Link button.
+2025-02-12 18:22:36,146 - INFO - ChromeDriver initialized.
+2025-02-12 18:22:37,687 - INFO - Opened Telegram Web.
+2025-02-12 18:22:38,102 - INFO - Clicked on BullX chat.
+2025-02-12 18:22:38,375 - INFO - Sent /start command to BullX.
+2025-02-12 18:22:38,375 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:22:48,495 - INFO - Clicked Login button.
+2025-02-12 18:22:48,514 - INFO - Pop-up appeared.
+2025-02-12 18:22:48,651 - INFO - Clicked Open Link button.
+2025-02-12 18:23:09,152 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010290ebac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010290720c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x000000010246dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001024b48f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x00000001024f5b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x00000001024a8ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001028d7664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001028da978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001028bcd04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001028db220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001028adcec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001028f78d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x00000001028f7a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000102906e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:23:09,152 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:23:16,251 - INFO - ChromeDriver initialized.
+2025-02-12 18:23:17,072 - INFO - Opened Telegram Web.
+2025-02-12 18:23:18,142 - INFO - Clicked on BullX chat.
+2025-02-12 18:23:18,458 - INFO - Sent /start command to BullX.
+2025-02-12 18:23:18,459 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:23:28,540 - INFO - Clicked Login button.
+2025-02-12 18:23:28,564 - INFO - Pop-up appeared.
+2025-02-12 18:23:28,688 - INFO - Clicked Open Link button.
+2025-02-12 18:23:43,818 - ERROR - An error occurred: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-02-12 18:23:43,819 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:23:58,618 - INFO - ChromeDriver initialized.
+2025-02-12 18:24:00,648 - INFO - Opened Telegram Web.
+2025-02-12 18:24:00,967 - INFO - Clicked on BullX chat.
+2025-02-12 18:24:01,346 - INFO - Sent /start command to BullX.
+2025-02-12 18:24:01,347 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:24:11,509 - INFO - Clicked Login button.
+2025-02-12 18:24:11,545 - INFO - Pop-up appeared.
+2025-02-12 18:24:11,660 - INFO - Clicked Open Link button.
+2025-02-12 18:24:31,832 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010457abac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010457320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x00000001040d9afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001041208f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000104161b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000104114ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000104543664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000104546978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000104528d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000104547220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000104519cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x00000001045638d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000104563a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000104572e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:24:31,833 - INFO - Login process completed. Keeping the browser open for inspection.
+2025-02-12 18:24:55,156 - INFO - ChromeDriver initialized.
+2025-02-12 18:24:56,319 - INFO - Opened Telegram Web.
+2025-02-12 18:24:56,630 - INFO - Clicked on BullX chat.
+2025-02-12 18:24:56,971 - INFO - Sent /start command to BullX.
+2025-02-12 18:24:56,971 - INFO - Waiting 5 seconds before proceeding...
+2025-02-12 18:25:07,110 - INFO - Clicked Login button.
+2025-02-12 18:25:07,137 - INFO - Pop-up appeared.
+2025-02-12 18:25:07,240 - INFO - Clicked Open Link button.
+2025-02-12 18:25:27,383 - ERROR - An error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010100abac cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x000000010100320c cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000100b69afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000100bb08f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000100bf1b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000100ba4ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000100fd3664 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x0000000100fd6978 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x0000000100fb8d04 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x0000000100fd7220 cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x0000000100fa9cec cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000100ff38d4 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000100ff3a5c cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000101002e80 cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x000000019d34af94 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019d345d34 thread_start + 8
+
+2025-02-12 18:25:27,384 - INFO - Login process completed. Keeping the browser open for inspection.

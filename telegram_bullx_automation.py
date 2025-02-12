@@ -10,17 +10,27 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 import time
+
+
+
 # Set Chrome options to use a specific user profile
 chrome_options = Options()
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
 chrome_options.add_argument("--disable-extensions")
+chrome_options.add_argument("--disable-blink-features=AutomationControlled")
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")  # Useful for Linux
 chrome_options.add_argument("--disable-dev-shm-usage")  # Prevent crashes on resource-limited systems
+
+
+
 # Set the user data directory (where your Chrome profiles are stored)
 chrome_options.add_argument("user-data-dir=/Users/kazi/Library/Application Support/Google/Chrome") 
 
 # Set the profile directory (replace with your actual profile, in this case, Profile 2)
 chrome_options.add_argument("profile-directory=Profile 2")
+
+
 
 # Configure the WebDriver with the Service object
 service = Service(ChromeDriverManager().install())
@@ -61,12 +71,12 @@ try:
 
     # Wait 30 seconds before checking for the login message
     logging.info("Waiting 5 seconds before proceeding...")
-    time.sleep(5)
+    time.sleep(10)
 
    
 
     # Step 4: Click the Login button in the BullX reply
-    login_button = driver.find_element(By.XPATH, '//*[@id="message-271"]/div[3]/div[2]/div[1]/button/div')  # Replace with actual button locator
+    login_button = driver.find_element(By.XPATH, '//*[@id="message-339"]/div[3]/div[2]/div[1]/button/div')  # Replace with actual button locator
     login_button.click()
     logging.info("Clicked Login button.")
 
@@ -85,32 +95,56 @@ try:
 
 
     # Step 6: Wait for the login page to load
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//div[contains(text(), "Enter passcode for 2FA")]'))
+    )
+    logging.info("2FA page loaded.")
+
+    # Step 7: Locate all input fields for the 2FA code
+# Step 7: Locate all input fields for the 2FA code
     try:
-        # Wait for the 2FA passcode input field to appear
-        password_input = WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div/div[2]/main/div/div[2]/div[1]/div[3]/div[2]/input[1]"]'))  # Generic locator for better matching
+        otp_inputs = WebDriverWait(driver, 10).until(
+            EC.visibility_of_all_elements_located((By.XPATH, '//input[contains(@class, "ant-otp-input")]'))
         )
-        logging.info("2FA Input field detected.")
 
-        # Step 7: Click the input field before entering text
-        password_input.click()
-        time.sleep(1)  # Small delay to ensure it's ready
+        logging.info(f"Found {len(otp_inputs)} OTP fields.")
+        
+        # Debugging: Print input field properties
+        for index, otp_input in enumerate(otp_inputs):
+            logging.info(f"Field {index + 1}: {otp_input.get_attribute('outerHTML')}")
 
-        # Enter the 2FA passcode
-        password_input.send_keys('2')  # Replace with your 2FA passcode
-        logging.info("Entered 2FA passcode.")
+        if len(otp_inputs) != 6:
+            logging.error(f"Unexpected number of OTP fields found: {len(otp_inputs)}")
+            raise Exception("Incorrect number of OTP input fields detected.")
 
-        # **Backup: JavaScript Input if Normal Input Fails**
-        driver.execute_script("arguments[0].value = arguments[1];", password_input, '200507')
-        time.sleep(1)  # Allow time for value to register
+        logging.info("Waiting 5 seconds before entering 2FA...")
+        time.sleep(5)  # Let the page settle
 
-        # Step 8: Click the "Next" button
-        next_button = driver.find_element(By.XPATH, '//button[contains(text(), "Next")]')  # Generic "Next" button locator
+        logging.info("Entering 2FA passcode: 200507")
+        
+        otp_code = "200507"
+        
+        otp_inputs[0].click()  # Click first box to activate input
+        time.sleep(1)  # Wait for focus
+
+        # Enter 2FA code one digit at a time
+        for i, digit in enumerate(otp_code):
+            otp_inputs[i].send_keys(digit)
+            time.sleep(0.5)
+
+        logging.info("2FA passcode entered successfully.")
+
+        # Click the "Next" button
+        next_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//button[contains(text(), "Next")]'))
+        )
         next_button.click()
         logging.info("Clicked Next.")
 
     except Exception as error:
-        logging.error(f"An error occurred during login: {error}")
+        logging.error(f"An error occurred while entering the 2FA code: {error}")
+        driver.quit()
+        exit()
 
     # Step 9: Wait for the trading page to load
     WebDriverWait(driver, 20).until(
@@ -121,10 +155,10 @@ try:
 except Exception as error:
     logging.error(f"An error occurred: {error}")
 
-# Keep the browser open for manual inspection
-logging.info("Login process completed. Keeping the browser open for inspection.")
-input("Press Enter to close the browser...")  # Wait for user input before closing
+    # Keep the browser open for manual inspection
+    logging.info("Login process completed. Keeping the browser open for inspection.")
+    input("Press Enter to close the browser...")  # Wait for user input before closing
 
-# Close the browser
-driver.quit()
-logging.info("Browser closed.")
+    # Close the browser
+    driver.quit()
+    logging.info("Browser closed.")
